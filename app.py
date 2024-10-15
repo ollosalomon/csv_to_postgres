@@ -26,4 +26,4 @@ def copy_data(csv_file_path):
     except Exception as e:
         print(f"Erreur : {str(e)}")
 
-copy_data(csv_file_path)
+copy_data(csv_file_path) 

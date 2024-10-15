@@ -5,7 +5,7 @@ from sqlalchemy import create_engine
 # Lire les variables d'environnement
 db_url = os.getenv('DATABASE_URL')
 
-csv_file_path = '/data/example_data.csv' 
+csv_file_path = '/data/example_data.csv'
 
 def copy_data(csv_file_path):
     try:
